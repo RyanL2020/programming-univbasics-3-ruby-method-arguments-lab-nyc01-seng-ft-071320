@@ -6,7 +6,7 @@ def introduction_with_language(name, language)
   puts "Hi my name is #{name} and I am learning in #{language}"
 end
 
-def introduction_with_language_optional(name, language = "Ruby")
+def introduction_with_language_optional(name, language)
   puts "Hi my name is #{name} and I am learning in #{language}"
 end
 
